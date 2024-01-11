@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+
+.bg{
+    background-image: url("img/negroni.jpg");
+    background-color: black;
+    background-size: cover;
+    background-position: bottom;
+    height: 994px;
+    width: auto;
+    position: relative;
+
+}
+
+header{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-of-a-bar{
+    background-image: url("img/luste.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name-of-a-page{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.table-area{
+    width: 1000px;
+    height:720px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+    background-color: rgba(210, 158, 103, 0.1);
+
+
+
+}
+
+th{
+    height: 30px;
+    vertical-align: center;
+    text-align: center;
+    background-color: rgba(210, 158, 103, 0.1);
+    color: white;
+
+}
+
+td{
+    border-top: solid black 1px;
+    height: 70px;
+    vertical-align: center;
+    background-color: rgba(210, 158, 103, 0.1);
+    color: white;
+
+}
+
+tr:hover{
+    background-color: rgba(210, 158, 103, 0.3);
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
